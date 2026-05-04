@@ -1,0 +1,6 @@
+@InvokeOpsBE_HostAddress = http://localhost:5122
+
+GET {{InvokeOpsBE_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
