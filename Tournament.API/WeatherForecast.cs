@@ -1,4 +1,4 @@
-namespace InvokeOpsBE;
+namespace Tournament.API;
 
 public class WeatherForecast
 {

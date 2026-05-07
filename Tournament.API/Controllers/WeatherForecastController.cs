@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace InvokeOpsBE.Controllers;
+namespace Tournament.API.Controllers;
 
 [ApiController]
 [Route("[controller]")]
