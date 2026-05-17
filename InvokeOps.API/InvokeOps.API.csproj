@@ -10,4 +10,16 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.7" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\Exceptions\Exception.csproj" />
+    <ProjectReference Include="..\Identity.Infrastructure\Identity.Infrastructure.csproj" />
+    <ProjectReference Include="..\Kernel\Kernel.csproj" />
+    <ProjectReference Include="..\Match.Infrastructure\Match.Infrastructure.csproj" />
+    <ProjectReference Include="..\MediatorController\MediatorController.csproj" />
+    <ProjectReference Include="..\Player.Infrastructure\Player.Infrastructure.csproj" />
+    <ProjectReference Include="..\Team.Infrastructure\Team.Infrastructure.csproj" />
+    <ProjectReference Include="..\Tournament.Infrastructure\Tournament.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
